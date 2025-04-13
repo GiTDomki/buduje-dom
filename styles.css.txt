@@ -1,0 +1,122 @@
+/* Tło strony */
+body {
+  background: url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  font-family: 'Roboto', sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/* Nagłówek z tłem */
+header {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+              url('https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1350&q=80') no-repeat center center/cover;
+  color: white;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+/* Sekcje */
+.content {
+  padding: 20px;
+  color: #333;
+}
+
+/* Sekcja Planowanie */
+#planowanie {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Sekcja Etapy */
+#etapy {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Sekcja Odbiór */
+#odbior {
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+/* Nagłówki, linki i sekcje */
+h1, h2, h3, h4 {
+  margin: 0;
+  padding: 10px;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 2rem;
+}
+
+h2 {
+  font-size: 1.5rem;
+}
+
+p {
+  line-height: 1.5;
+  font-size: 1rem;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  padding: 5px 0;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.nav a {
+  padding: 10px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav a:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+/* Responsywność */
+@media only screen and (max-width: 768px) {
+  header {
+    text-align: left;
+    padding: 30px 15px;
+  }
+  
+  .content {
+    padding: 15px;
+  }
+  
+  .section {
+    margin: 20px 0;
+  }
+
+  /* Menu rozwijane */
+  .nav {
+    display: block;
+    text-align: left;
+  }
+
+  .nav a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+  }
+}

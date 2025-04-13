@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Budowa Domu Krok po Kroku</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Link do czcionki technicznej z Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <h1>Budowa Domu Krok po Kroku</h1>
+    <p>Od zgłoszenia po odbiór kluczy – cała droga w jednym miejscu</p>
+  </header>
+
+  <div class="nav">
+    <a href="#planowanie">Planowanie budowy</a>
+    <a href="#etapy">Etapy budowy</a>
+    <a href="#odbior">Odbiór prac</a>
+  </div>
+
+  <section id="planowanie" class="content">
+    <h2>1. Planowanie Budowy</h2>
+    <p>Przed rozpoczęciem budowy zastanów się nad swoimi potrzebami, budżetem i wyborem działki. Pamiętaj o kwestiach prawnych i administracyjnych, takich jak zgłoszenie budowy i uzyskanie pozwolenia.</p>
+  </section>
+
+  <section id="etapy" class="content">
+    <h2>2. Etapy Budowy</h2>
